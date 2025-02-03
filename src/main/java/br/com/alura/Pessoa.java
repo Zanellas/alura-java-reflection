@@ -8,6 +8,11 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
+    public Pessoa(Integer id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+
     private Integer id;
     private String nome;
     private String cpf;
